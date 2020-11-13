@@ -202,7 +202,10 @@ section {
   content: "";
   position: absolute;
   border: 1px solid #ffffff;
-  margin: 30px 30px 50px 50px;
+  top: 30px;
+  bottom: 30px;
+  left: 50px;
+  right: 50px;
   z-index: 1;
 }
 .full-banner-image {
@@ -226,7 +229,7 @@ section {
   color: #637f94;
   line-height: 1;
 }
-.full-banner-sidebar:after {
+.full-banner-sidebar h4:after {
   content: "";
   width: 100px;
   height: 1px;
@@ -242,7 +245,7 @@ section {
 .full-banner-sidebar > div:nth-of-type(2) {
   font-size: 25px;
   font-weight: 200;
-  line-height: 3px;
+  letter-spacing: 3px;
 }
 .full-banner-sidebar .btn.btn-default {
   margin-top: 50px;
